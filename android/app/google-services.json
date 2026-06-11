@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "878597889127",
+    "firebase_url": "https://rideshare-app-8a30a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "rideshare-app-8a30a",
+    "storage_bucket": "rideshare-app-8a30a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878597889127:android:4c7148ef9d356223d6c8c2",
+        "android_client_info": {
+          "package_name": "com.example.rideshare_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUc86jcYbFLhNJr55vNVDaDvf-ORaA60c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
