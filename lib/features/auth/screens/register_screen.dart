@@ -185,6 +185,8 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
                           setState(() => _obscurePassword = !_obscurePassword),
                     ),
                   ),
+
+                  const SizedBox(height: 14.0),
                   _buildTextField(
                     context: context,
                     controller: _confirmPasswordController,

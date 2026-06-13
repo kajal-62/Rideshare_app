@@ -17,7 +17,7 @@ final routerProvider = Provider((ref) {
       redirect: (context , state){
         final isLoggedIn = authstate.valueOrNull != null ;
         final isAuthRoute = state.matchedLocation == '/login' ||
-          state.matchedLocation == '/register';
+          state.matchedLocation == '/register' ||
           state.matchedLocation == '/';
 
         if (!isLoggedIn && !isAuthRoute) return '/login';
